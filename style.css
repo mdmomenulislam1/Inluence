@@ -24,7 +24,7 @@
 
 /* Header style */
 header {
-    padding: 2rem 7rem;
+    padding: 3rem 7rem 5rem 7rem;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav {
     font-family: Poppins;
     font-size: 1.6rem;
     font-weight: 700;
-    
+
 }
 
 nav>ul {
@@ -111,5 +111,120 @@ nav>ul {
     padding: 2rem 0;
 }
 
+/* Cards Section  */
+.cart-container {
+    padding: 3rem 7rem 5rem 7rem;
+}
+
+.cart-title {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.cart-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.card-box {
+    width: 25rem;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem grey;
+    padding: 1rem;
+}
+
+.card-box-icon {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.cart-box-title {
+    margin-bottom: 0.6rem;
+    color: #18191F;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+.card-box-description {
+    color: var(--gray-50, #787885);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
 
 
+.card-footer {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+
+
+
+/* feature section style  */
+.feature-container {
+    padding: 3rem 7rem 5rem 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.feature-img {}
+
+.feature-pic {}
+
+.feature-text {
+    padding-left: 5rem;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+
+.feature-description {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    width: 60%;
+}
+
+.btn-feature {
+    border-radius: 0;
+}
+
+
+
+
+
+
+/* Responsive for small device */
